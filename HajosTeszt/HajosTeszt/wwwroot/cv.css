@@ -1,8 +1,10 @@
-﻿body {div
-{
+﻿body {
+    color: black;
+    }
+div {
     margin: 10px;
     padding: 20px;
-    border: 1px solid fuchsia;
+    border: 1px solid darkred;
     border-radius: 25px;
 }
 h1,
@@ -12,31 +14,31 @@ h2 {
 a {
     padding: 10px;
     border-radius: 25px;
-    background-color: blue;
+    background-color: cornflowerblue;
     color: white;
 }
-    a:hover {
-        background-color: fuchsia;
-    }
 span {
     font-weight: bold;
     font-style: italic;
-    color: fuchsia;
+    color: indianred;
     font-size: 40px;
 }
+
 #listak {
-    background-color: lightgrey;
+    background-color: indianred;
 }
+
 .megisfeher {
     background-color: white;
     width: 100px;
     border-radius: 25px;
 }
+
 .sorrendi {
     font-style: italic;
 }
+
 img {
     display: block;
     margin: auto;
-}
 }
