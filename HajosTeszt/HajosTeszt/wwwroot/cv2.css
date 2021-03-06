@@ -1,0 +1,28 @@
+﻿body {
+    font-weight: bold;
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+#listak {
+    background-color: indianred;
+    padding: 20px;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        max-width: 1500px;
+        margin: auto;
+    }
+
+    #main {
+        display: flex;
+    }
+    #listak {
+        order: -1;
+        flex: 1 1 75%;
+    }
+}
