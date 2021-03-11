@@ -5,3 +5,35 @@
     margin: 10px;
     border: 1px solid fuchsia
        }
+#külső {
+}
+
+#kérdés_szöveg {
+    margin: 10px;
+    border: 1px indianred
+}
+
+#középső {
+    margin: 10px;
+    border: 1px solid red
+}
+
+#válaszok {
+    margin: 10px;
+    border: 1px aquamarine
+
+}
+
+#vezérlő {
+    margin: 10px;
+    border: 1px solid blue
+}
+
+#kép {
+}
+
+.gomb {
+}
+
+.kerdes {
+}
