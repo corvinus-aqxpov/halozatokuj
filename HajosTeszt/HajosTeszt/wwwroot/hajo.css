@@ -5,10 +5,7 @@ html, body {
     height: 100%;
 }
 
-div {
-    margin: 10px;
-    border: 1px solid fuchsia
-       }
+div {}
 #külső {
     height: 100%;
     display: flex;
@@ -17,12 +14,12 @@ div {
 
 #kérdés_szöveg {
     margin: 10px;
-    border: 1px indianred
+    border: 1px black
 }
 
 #középső {
     margin: 10px;
-    border: 1px solid red;
+    border: 5px black;
     display: flex;
     flex-direction: row;
     flex-grow: 1
@@ -30,14 +27,14 @@ div {
 
 #válaszok {
     margin: 10px;
-    border: 1px aquamarine;
+    border: 1px cornflowerblue;
     flex-grow: 1;
     flex-shrink: 1;
 }
 
 #vezérlő {
     margin: 10px;
-    border: 1px solid blue;
+    border: 1px solid cornflowerblue;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -56,8 +53,19 @@ div {
 
 .kerdes {
 }
+
 .kattintható:hover {
-    background-color: fuchsia;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer
+}
+.jo {
+    background-color: forestgreen;
+    color: white;
+    cursor: pointer
+}
+.rossz {
+    background-color: indianred;
     color: white;
     cursor: pointer
 }
