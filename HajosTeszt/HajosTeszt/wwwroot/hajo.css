@@ -1,5 +1,4 @@
 ﻿body {
-    color: black;
 }
  div {
     margin: 10px;
@@ -21,7 +20,6 @@
 #válaszok {
     margin: 10px;
     border: 1px aquamarine
-
 }
 
 #vezérlő {
