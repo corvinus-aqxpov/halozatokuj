@@ -1,10 +1,18 @@
 ﻿body {
 }
- div {
+
+html, body {
+    height: 100%;
+}
+
+div {
     margin: 10px;
     border: 1px solid fuchsia
        }
 #külső {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 #kérdés_szöveg {
@@ -14,23 +22,36 @@
 
 #középső {
     margin: 10px;
-    border: 1px solid red
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1
 }
 
 #válaszok {
     margin: 10px;
-    border: 1px aquamarine
+    border: 1px aquamarine;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 #vezérlő {
     margin: 10px;
-    border: 1px solid blue
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #kép {
+    overflow: hidden;
+    flex-shrink:0;
+    flex-shrink: 0;
 }
 
 .gomb {
+    padding: 20px;
+    width: 80px;
 }
 
 .kerdes {
