@@ -24,7 +24,6 @@ var kérdésszám;
         document.getElementById("kép1").src = "https://szoft1.comeback.hu/hajo/" + kérdések[k].image;
 }
 
-
 function Előző() {
     if (kérdésszám == 0) {
         kérdésszám = kérdések.lenght - 1;
@@ -46,3 +45,5 @@ function Következő() {
         letöltésBefejeződött();
     }
 }
+
+document.getElementById(`válasz1`).style.pointerEvents = "none"
