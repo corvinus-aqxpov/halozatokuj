@@ -19,8 +19,8 @@ namespace HajosTeszt.Controllers
             var kérdések = from x in context.Questions select x.QuestionText;
 
             return new JsonResult(kérdések);
-            return View();
         }
+        
         [HttpGet]
         [Route("questions/count")]
         public int M4() //Tetszőleges metódusnév

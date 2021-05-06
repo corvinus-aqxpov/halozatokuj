@@ -77,16 +77,17 @@
                         if (displayedQuestion == undefined && destination == 0) {
                             displayedQuestion = 0;
                             kérdésMegjelenítés();
-                    
+
                         }
                     }
            
-                function előre() {
-                    clearTimeout(timeoutHandler)
+            function előre() {
+                clearTimeout(timeoutHandler)
                     displayedQuestion++;
-                    if (displayedQuestion == questionsInHotList) displayedQuestion = 0;
-                    kérdésMegjelenítés()
-                }
+                if (displayedQuestion == questionsInHotList) displayedQuestion = 0;
+                kérdésMegjelenítés()
+            }
+        
     </script>
 </body>
 </html>
